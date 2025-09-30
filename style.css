@@ -56,18 +56,6 @@ body {
   transition: opacity 2s;
 }
 
-#achievements {
-  position: absolute;
-  bottom: 30px;
-  left: 30px;
-  font-size: 1em;
-  font-weight: 600;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 5px;
-}
-
 /* Responsive design para móviles */
 @media (max-width: 768px) {
   #score {
@@ -88,12 +76,6 @@ body {
     font-size: 1em;
   }
 
-  #achievements {
-    bottom: 20px;
-    left: 20px;
-    font-size: 0.8em;
-    padding: 8px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -113,9 +95,6 @@ body {
     font-size: 0.9em;
   }
 
-  #achievements {
-    font-size: 0.7em;
-    padding: 5px;
-  }
+
 }
 
