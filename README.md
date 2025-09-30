@@ -1,6 +1,6 @@
 # RanunCulo y su palo
 
-<img width="1904" height="892" alt="ranunculo-y-su-palo" src="https://github.com/user-attachments/assets/5a06ad40-af44-4812-9d62-824b19657086" />
+<img width="1919" height="904" alt="ranunculo-y-su-palo" src="https://github.com/user-attachments/assets/091ea5a8-a5d4-4fa3-b237-67e4585d4174" />
 
 Un emocionante juego web inspirado en Stick Hero, donde controlas a una valiente rana que salta de plataforma en plataforma usando un palo extensible. ¡Demuestra tu precisión y alcanza puntuaciones altas!
 
