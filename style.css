@@ -1,0 +1,121 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#score {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 2em;
+  font-weight: 900;
+}
+
+#introduction {
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  font-weight: 600;
+  font-size: 0.8em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  transition: opacity 2s;
+}
+
+#restart {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 50%;
+  color: white;
+  background-color: red;
+  border: none;
+  font-weight: 700;
+  font-size: 1.2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+  cursor: pointer;
+}
+
+#perfect {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+#achievements {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Responsive design para móviles */
+@media (max-width: 768px) {
+  #score {
+    top: 20px;
+    right: 20px;
+    font-size: 1.5em;
+  }
+
+  #introduction {
+    width: 150px;
+    height: 120px;
+    font-size: 0.7em;
+  }
+
+  #restart {
+    width: 100px;
+    height: 100px;
+    font-size: 1em;
+  }
+
+  #achievements {
+    bottom: 20px;
+    left: 20px;
+    font-size: 0.8em;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  #score {
+    font-size: 1.2em;
+  }
+
+  #introduction {
+    width: 120px;
+    height: 100px;
+    font-size: 0.6em;
+  }
+
+  #restart {
+    width: 80px;
+    height: 80px;
+    font-size: 0.9em;
+  }
+
+  #achievements {
+    font-size: 0.7em;
+    padding: 5px;
+  }
+}
+
